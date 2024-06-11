@@ -1,0 +1,14 @@
+{
+  "name": "your-website",
+  "version": "1.0.0",
+  "description": "A website with an advanced NLP-based chatbot",
+  "main": "server.js",
+  "scripts": {
+    "start": "python server/app.py"
+  },
+  "dependencies": {
+    "flask": "^1.1.2",
+    "spacy": "^2.3.2",
+    "requests": "^2.24.0"
+  }
+}
